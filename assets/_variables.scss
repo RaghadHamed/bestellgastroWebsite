@@ -1,0 +1,48 @@
+// RESPONSIVE BREAKPOINTS
+$bp-hd: 106.25em;
+$bp-big: 96em; // 1536px
+$bp-largest: 72em; // 1152px
+$bp-large: 64em; // 1024px
+$bp-between-large-medium: 53em; // 848px
+$bp-medium: 44em; // 704px
+$bp-between-medium-small: 32em; // 512px
+$bp-small: 25em; // 400px
+$bp-tiny: 22em; // 352px
+// Font weight
+$font-regular: 400;
+$font-medium: 500;
+$font-semi-bold: 600;
+$font-bold: 700;
+$font-extra-bold: 800;
+// Border radius
+$border-radius-tiny: 4px;
+$border-radius-small: 8px;
+$border-radius-medium: 16px;
+$border-radius-large: 22.85px;
+// Common color palette
+$palette-common-white: #fff;
+$palette-common-black: #000;
+$palette-common-grey: #f6f9fc;
+// App Color
+$color-primary: #e8a523;
+$color-secondary: #0b3947;
+$color-tertiary: #1e7294;
+// Light color palette
+$light-text-primary: #727788;
+$light-text-secondary: #66ffff;
+$light-text-tertiary: #2ec5ce;
+$light-text-disabled: #d9dbe1;
+$light-text-hint: rgba(0, 0, 0, 0.38);
+// Dark Color Palette
+$dark-text-primary: #18191f;
+$dark-text-secondary: #eeeff4;
+$dark-text-disabled: rgba(255, 255, 255, 0.5);
+$dark-text-hint: rgba(255, 255, 255, 0.5);
+// Shadow color palette
+$shadow-color-primary: #1e7294;
+$shadow-color-secondary: #182538;
+// Circles color palette
+$circle-color-pink: #ff72d2;
+$circle-color-grey: #d6b1ff;
+// Error Pallete
+$error-color-red: #ff0033;

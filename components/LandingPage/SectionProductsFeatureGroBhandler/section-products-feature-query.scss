@@ -1,0 +1,17 @@
+@media only screen and (max-width: $bp-medium) {
+    .section--products--feature {
+        & .products--feature--main--title {
+            margin-bottom: 3rem;
+        }
+        & .products--features--wrapper {
+            grid-template-columns: repeat(1, 1fr);
+            row-gap: 0rem;
+        }
+    }
+    .section--products--feature--content {
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    }
+    .section--products--feature .u-group-elements-1 {
+        display: none;
+    }
+}

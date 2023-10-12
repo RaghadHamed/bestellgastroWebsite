@@ -1,0 +1,54 @@
+.careers {
+  padding-bottom: 10rem;
+  &--small--title {
+    margin-bottom: 0.8rem;
+    @include small-title;
+  }
+
+  &--main--title {
+    font-size: 2.857rem;
+    font-weight: $font-extra-bold;
+    color: $dark-text-primary;
+    margin-bottom: 0.8rem;
+  }
+
+  &--description {
+    font-size: 1.714rem;
+    line-height: 1.8;
+    margin-bottom: 3.1428rem;
+  }
+
+  &--container {
+    display: grid;
+    grid-template-columns: auto max-content auto;
+    column-gap: 5rem;
+    row-gap: 2.285rem;
+    align-items: center;
+    font-size: 1.428rem;
+    font-weight: $font-bold;
+    color: $color-primary;
+
+    p {
+      width: fit-content;
+      cursor: pointer;
+
+      a {
+        color: $color-primary;
+      }
+    }
+  }
+
+  .loader--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .no--job--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+}

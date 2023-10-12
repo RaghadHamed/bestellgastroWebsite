@@ -1,0 +1,133 @@
+.section--services {
+    background-color: $color-secondary;
+    background-size: cover;
+    padding: 5rem;
+    & .section--services--wrapper {
+        margin: 0 auto;
+        & .services--main--title {
+            font-size: 3.4285rem;
+            font-weight: $font-extra-bold;
+            color: $color-primary;
+            margin-bottom: 3.4285rem;
+            text-align: center;
+            font-family: 'Lobster';
+        }
+    }
+    img {
+        width: 41px;
+        height: 41px;
+    }
+    .container {
+        display: flex;
+        width: 213px;
+        margin: auto;
+        justify-content: space-between;
+    }
+    p {
+        line-height: 2.53;
+        width: 778px;
+        margin: 4px auto 0;
+        font-size: 1.8rem;
+        color: #ffffff;
+        line-height: 2.53;
+        text-align: center;
+    }
+}
+
+.services--tabs--content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 4.6428rem;
+    row-gap: 6rem;
+    padding-top: 4.9285rem;
+    padding-bottom: 4.9285rem;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    & .service--figure {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+        & img {
+            width: 8.5rem;
+        }
+        & .service--caption {
+            font-size: 1.1428rem;
+        }
+    }
+}
+
+.process--done {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    grid-column: 1 / -1;
+    justify-self: center;
+    & img {
+        width: 30px;
+    }
+    & .process--caption {
+        font-size: 1.1428rem;
+    }
+}
+
+.u-list {
+    display: grid;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    grid-template-columns: calc(20% - 8.8px) calc(20% - 8.8px) calc(20% - 8.8px) calc(20% - 8.8px) calc(20% - 8.8px);
+    min-height: 182px;
+    grid-gap: 11px 11px
+}
+
+.u-list-item {
+    display: flex;
+    text-align: center;
+}
+
+.u-list-item h6 {
+    font-size: 1.4rem;
+    margin: 15px auto 0;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.u-container-layout {
+    padding: 20px;
+    width: 100%;
+}
+
+.u-icon {
+    width: 64px;
+    height: 64px;
+    margin: 15px auto 0;
+    display: block;
+}
+
+.u-svg-link {
+    width: 100%;
+    height: 100%;
+}
+
+.u-svg-content {
+    width: 0;
+    height: 0;
+}
+
+.button--wrapper {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.button--wrapper img {
+    width: 20px;
+    height: 20px;
+}
+
+.btn--primary:hover {
+    background-color: $color-primary !important;
+    color: $color-secondary !important;
+}

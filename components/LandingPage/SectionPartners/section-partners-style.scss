@@ -1,0 +1,32 @@
+.section--partners {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 11.4rem;
+    background-color: #ffc75a;
+    & .partners--main--title {
+        font-size: 3.4285rem;
+        font-weight: $font-semi-bold;
+        color: $color-secondary;
+    }
+    & .partners--small--title {
+        font-size: 2rem;
+        max-width: 75%;
+        font-weight: 200;
+        color: $color-secondary;
+        margin: 20px auto;
+    }
+    .button--wrapper {
+        max-width: 300px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .button--wrapper a {
+        background-color: $color-secondary !important;
+        font-size: 1.25rem;
+    }
+    .button--wrapper img {
+        width: 20px;
+        height: 20px;
+    }
+}

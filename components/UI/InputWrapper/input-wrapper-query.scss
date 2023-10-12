@@ -1,0 +1,5 @@
+@media only screen and (max-width: $bp-between-medium-small) {
+  .input--wrapper {
+    grid-template-columns: 1fr;
+  }
+}

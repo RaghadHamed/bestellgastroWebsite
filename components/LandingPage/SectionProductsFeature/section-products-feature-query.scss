@@ -1,0 +1,19 @@
+@media only screen and (max-width: $bp-between-large-medium) {
+    .section--products--feature {
+        & .products--feature--main--title {
+            margin-bottom: 3rem;
+        }
+        & .products--features--wrapper {
+            grid-template-columns: repeat(1, 1fr);
+            row-gap: 0rem;
+        }
+    }
+    .list {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section--products--feature--content {
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    }
+}

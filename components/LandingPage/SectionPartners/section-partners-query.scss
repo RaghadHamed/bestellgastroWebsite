@@ -1,0 +1,10 @@
+@media only screen and (max-width: $bp-between-large-medium) {
+  .section--partners {
+    & .partners--paragraph {
+      padding-right: 4rem;
+      padding-left: 4rem;
+      margin-bottom: 4rem;
+      text-align: center;
+    }
+  }
+}

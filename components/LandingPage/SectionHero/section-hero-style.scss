@@ -1,0 +1,209 @@
+.section--hero {
+    // height: 95.5vh;
+    // background-image: url('~/static/images/hero-background-image.png');
+    background-color: $color-secondary;
+    background-size: cover;
+    padding: 18rem 0 0 0;
+    position: relative;
+}
+
+.first-section {
+    padding: 20px 0;
+    padding-top: 0;
+    margin: 0 auto;
+}
+
+// .VueCarousel {
+// }
+.slide-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    & .hero--title {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-size: 4.8rem;
+        max-width: 500px;
+        text-align: center;
+        margin-right: 150px;
+    }
+    & .hero--paragraph {
+        font-size: 1.7143rem;
+        padding: 0 40px;
+        text-align: center;
+    }
+    & .button--wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.14rem;
+        margin-right: 150px;
+        margin-top: 20px;
+    }
+    & .slide-image img {
+        width: 260px;
+        height: auto;
+    }
+}
+
+@include icon;
+html:lang(ar) {
+    .button--wrapper {
+        direction: rtl;
+        .icon {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+.VueCarousel {
+    .VueCarousel-navigation-button {
+        color: $color-primary !important;
+        outline: none !important;
+    }
+}
+
+.VueCarousel {
+    .VueCarousel-navigation-button {
+        color: $color-primary !important;
+        outline: none !important;
+    }
+}
+
+.modal--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $palette-common-white;
+    border-radius: $border-radius-large;
+    gap: 5rem;
+    padding-top: 8.5714rem;
+    padding-bottom: 8.5714rem;
+    padding-left: 4rem;
+    padding-right: 8rem;
+    & img {
+        width: 14rem;
+    }
+    & .modal--content--wrapper {
+        & .modal--header {
+            font-size: 2.857rem;
+            font-weight: $font-extra-bold;
+            color: $dark-text-primary;
+            text-transform: uppercase;
+            margin-bottom: 2.1428rem;
+        }
+        & .button--wrapper {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 6.4285rem;
+        }
+    }
+}
+
+.hidden--container {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    width: 0;
+    height: 0;
+}
+
+.image {
+    width: 2116px;
+    max-width: initial;
+    right: -455px;
+    position: absolute;
+    bottom: -2px;
+}
+
+@keyframes rotateImage {
+    0% {
+        transform: translate(-300px) rotate(90deg) scale(0.1);
+    }
+    10% {
+        transform: translate(0px) rotate(0deg) scale(1);
+    }
+}
+
+@keyframes tada {
+    from {
+        transform: scale3d(1, 1, 1);
+    }
+    10%,
+    20% {
+        transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    }
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+    40%,
+    60%,
+    80% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+    to {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.tada {
+    animation: tada 2s 1;
+}
+
+.GroBhandler {
+    .slide-wrapper .hero--title {
+        margin-top: 80px;
+        max-width: 632px;
+        margin-right: 120px;
+        font-size: 4.5rem;
+    }
+    .slide-wrapper .slide-image img {
+        width: 470px;
+        margin-bottom: 10px;
+    }
+}
+
+.Umwelt {
+    .slide-wrapper .hero--title {
+        margin-top: 80px;
+    }
+    .first-section {
+        min-height: 500px;
+    }
+    .slide-wrapper .slide-image img {
+        width: 481px;
+        margin-bottom: 170px;
+    }
+    .tada {
+        animation: rotateImage 6s 1;
+    }
+}
+
+.Investoren {
+    .section--hero {
+        background-color: #95f984;
+    }
+    .slide-wrapper .hero--title {
+        color: $color-secondary;
+        margin-top: 70px;
+        font-size: 4rem;
+        margin-right: 50px;
+    }
+    .slide-wrapper .slide-image img {
+        width: 587px;
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .slide-wrapper .button--wrapper {
+        margin-right: 50px;
+    }
+    .btn--primary {
+        background-color: $color-secondary !important;
+    }
+}

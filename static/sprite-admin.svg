@@ -1,0 +1,48 @@
+<svg width="0" height="0" class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" id="icon-globe">
+    <path d="M12.6074 22.8113C18.1303 22.8113 22.6074 18.3341 22.6074 12.8113C22.6074 7.28843 18.1303 2.81128 12.6074 2.81128C7.08457 2.81128 2.60742 7.28843 2.60742 12.8113C2.60742 18.3341 7.08457 22.8113 12.6074 22.8113Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M2.60742 12.8113H22.6074" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12.6074 2.81128C15.1087 5.54963 16.5302 9.10331 16.6074 12.8113C16.5302 16.5192 15.1087 20.0729 12.6074 22.8113C10.1061 20.0729 8.68467 16.5192 8.60742 12.8113C8.68467 9.10331 10.1061 5.54963 12.6074 2.81128V2.81128Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="icon-search">
+    <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M20.9999 21L16.6499 16.65" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="icon-settings">
+    <path d="M4 21V14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4 10V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 21V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M12 8V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M20 21V16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M20 12V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M1 14H7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M9 8H15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M17 16H23" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="icon-add">
+    <path d="M12 5V19" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M5 12H19" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 16" id="icon-delete">
+    <g clip-path="url(#clip0_10853_8898)">
+      <path d="M20.1085 4V2H14.059V1C14.059 0.734784 13.9315 0.48043 13.7046 0.292893C13.4777 0.105357 13.17 0 12.8491 0L8.00945 0C7.68856 0 7.38081 0.105357 7.15391 0.292893C6.92701 0.48043 6.79954 0.734784 6.79954 1V2H0.75V4H20.1085Z" fill="currentColor"></path>
+      <path d="M3.16992 5V14C3.16992 14.5304 3.42487 15.0391 3.87867 15.4142C4.33247 15.7893 4.94796 16 5.58974 16H15.269C15.9108 16 16.5263 15.7893 16.9801 15.4142C17.4339 15.0391 17.6888 14.5304 17.6888 14V5H3.16992ZM14.56 12.5L12.8492 13.914L10.4294 11.914L8.00955 13.914L6.29874 12.5L8.71856 10.5L6.29874 8.5L8.00955 7.086L10.4294 9.086L12.8492 7.086L14.56 8.5L12.1402 10.5L14.56 12.5Z" fill="currentColor"></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_10853_8898">
+        <rect width="19.3585" height="16" fill="currentColor" transform="translate(0.75)"></rect>
+      </clipPath>
+    </defs>
+  </symbol>
+  <symbol fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 16" id="icon-edit">
+    <g clip-path="url(#clip0_10853_8890)">
+      <path d="M18.017 0.3C17.533 -0.1 16.8071 -0.1 16.3231 0.3L8.2168 7V10H11.8465L19.9528 3.3C20.4368 2.9 20.4368 2.3 19.9528 1.9L18.017 0.3Z" fill="currentColor"></path>
+      <path d="M19.106 9C18.3801 9 17.8961 9.4 17.8961 10V14H3.37732V2H8.21692C8.94286 2 9.42682 1.6 9.42682 1C9.42682 0.4 8.94286 0 8.21692 0H2.16742C1.44148 0 0.95752 0.4 0.95752 1V15C0.95752 15.6 1.44148 16 2.16742 16H19.106C19.832 16 20.3159 15.6 20.3159 15V10C20.3159 9.4 19.832 9 19.106 9Z" fill="currentColor"></path>
+    </g>
+    <defs>
+      <clipPath id="clip0_10853_8890">
+        <rect width="19.3584" height="16" fill="currentColor" transform="translate(0.95752)"></rect>
+      </clipPath>
+    </defs>
+  </symbol>
+</svg>

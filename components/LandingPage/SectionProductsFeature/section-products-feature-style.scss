@@ -1,0 +1,108 @@
+.section--products--feature {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #ffc75a;
+    position: relative;
+    &--content {
+        background-color: $color-secondary;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+        padding: 7rem 0 15rem 0;
+        text-align: center;
+    }
+    h3 {
+        color: #fff;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 300;
+    }
+    .list {
+        max-width: 80%;
+        margin: 50px auto;
+        display: grid;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+        grid-template-columns: calc(25% - 16.5px) calc(25% - 16.5px) calc(25% - 16.5px) calc(25% - 16.5px);
+        grid-gap: 22px 22px;
+        min-height: 300px;
+        text-align: center;
+    }
+    .list-item {
+        border: 2px solid #fff;
+        border-radius: 15px;
+    }
+    .list-item .container-layout {
+        padding: 30px;
+    }
+    .list-item span {
+        height: 60px;
+        width: 59px;
+        display: block;
+        background-image: none;
+        margin: 11px auto 0;
+        padding: 0;
+        color: #e8a523 !important;
+    }
+    .u-svg-link {
+        width: 100%;
+        height: 100%;
+        fill: #e8a523;
+    }
+    .u-svg-content {
+        width: 0;
+        height: 0;
+    }
+    .list-item h1 {
+        color: #fff;
+        font-weight: 700;
+        font-size: 4.5rem;
+        margin: 23px auto 0;
+    }
+    .list-item h4 {
+        color: #ffc75a;
+        margin: 23px auto 0;
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+    [data-aos=fade][data-aos=fade].aos-animate {
+        animation: animationRotate 0.7s;
+    }
+}
+
+@keyframes animationRotate {
+    0% {
+        transform: rotate(45deg) translateX(-400px) translateY(0);
+    }
+    100% {
+        transform: rotate(0deg) translateX(0) translateY(0);
+    }
+}
+
+
+/*@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+.list-item .h11 {
+    animation: counter 5s linear ease-in 1;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    padding: 2rem;
+}
+
+.list-item .h11::after {
+    content: counter(num);
+}
+
+@keyframes counter {
+    from {
+        --num: 0;
+    }
+    to {
+        --num: 677;
+    }
+}*/

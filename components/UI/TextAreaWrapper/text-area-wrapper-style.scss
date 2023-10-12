@@ -1,0 +1,38 @@
+.input--wrapper {
+  @include join-input-wrapper;
+  align-items: flex-start;
+
+  label {
+    @include join-label;
+  }
+
+  textarea {
+    @include join-input;
+    display: block;
+    width: 100%;
+    resize: none;
+    height: 20rem;
+  }
+}
+
+.error--message {
+  font-size: 1.2rem;
+  padding: 0.8rem 1.6rem;
+  margin-top: 0.4rem;
+  width: fit-content;
+  color: $error-color-red;
+  background-color: rgba($error-color-red, 0.05);
+  border-radius: $border-radius-small;
+}
+
+.custom {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  column-gap: 4.1428rem;
+  margin-bottom: 2.2857rem;
+
+  textarea {
+    height: 100rem;
+  }
+}

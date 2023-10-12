@@ -1,0 +1,30 @@
+@media only screen and (max-width: $bp-large) {
+  .products--tabs--content--container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+@media only screen and (max-width: $bp-medium) {
+  .products--tabs--content--container {
+    padding-left: 6rem;
+    padding-right: 4rem;
+  }
+}
+
+@media only screen and (max-width: $bp-between-medium-small) {
+  .products--tabs--content--container {
+    padding-left: 0rem;
+    padding-right: 0rem;
+
+    & .products--tabs--content--wrapper {
+      & .products--tabs--content {
+        & .products--list--content {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}

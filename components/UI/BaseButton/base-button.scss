@@ -1,0 +1,91 @@
+.btn,
+.btn:link,
+.btn:visited {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-decoration: none;
+  font-size: 1.43rem;
+  font-weight: $font-bold;
+  padding: 1.1rem 2rem;
+  border-radius: $border-radius-small;
+  box-shadow: 0 10px 20px rgba($shadow-color-primary, 0.2);
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn--primary,
+.btn--primary:link,
+.btn--primary:visited {
+  background-color: $color-primary;
+  color: $palette-common-white;
+  transition: all 0.3s ease-out;
+  border-radius: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn--primary:hover,
+.btn--primary:active {
+  background-color: $palette-common-white;
+  color: $color-primary;
+  gap: 2.6rem;
+}
+
+.btn--primary:hover .icon,
+.btn--primary:active .icon {
+  color: $color-primary;
+}
+
+.btn--secondary,
+.btn--secondary:link,
+.btn--secondary:visited {
+  background-color: $palette-common-white;
+  color: $color-primary;
+  border: 1px solid $color-primary;
+  transition: all 0.3s ease-out;
+}
+
+.btn--secondary:hover,
+.btn--secondary:active {
+  background-color: $color-primary;
+  color: $palette-common-white;
+  gap: 2.6rem;
+}
+
+.btn--secondary:hover .icon,
+.btn--secondary:active .icon {
+  color: $palette-common-white;
+}
+
+.btn--cta {
+  font-size: 1.714rem;
+  background-color: transparent;
+  color: $palette-common-white;
+  border-radius: none;
+  box-shadow: none;
+  transition: all 0.3s ease-out;
+}
+
+.btn--cta:hover,
+.btn--cta:active {
+  gap: 2.6rem;
+}
+
+.btn--modal {
+  font-size: 1.714rem;
+  background-color: transparent;
+  color: $color-primary;
+  border-radius: none;
+  box-shadow: none;
+  transition: all 0.3s ease-out;
+  padding: 0px;
+}
+
+.btn--modal:hover,
+.btn--modal:active {
+  gap: 2.6rem;
+}

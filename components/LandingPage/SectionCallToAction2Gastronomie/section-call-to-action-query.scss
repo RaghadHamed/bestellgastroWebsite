@@ -1,0 +1,26 @@
+@media only screen and (max-width: $bp-between-large-medium) {
+    .images {
+        display: none;
+    }
+    .call--to--action-description {
+        width: 80%;
+    }
+    .sectionImage {
+        flex-direction: column;
+        gap: 50px;
+        img {
+            height: auto;
+            max-width: 80%;
+        }
+        .content {
+            width: 80%;
+        }
+        .repeater {
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .section--call--to--action--wrapper2 {
+        background-size: cover;
+    }
+}

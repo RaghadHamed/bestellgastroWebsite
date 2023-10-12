@@ -1,0 +1,32 @@
+@media only screen and (max-width: $bp-between-large-medium) {
+    .about--wrapper--item {
+        flex-direction: column;
+        &.reverse {
+            flex-direction: column;
+        }
+    }
+    .list {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        .item {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media only screen and (max-width: $bp-medium) {
+    .section--about .about--wrapper {
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    }
+    .list {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        .item {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+}

@@ -1,0 +1,144 @@
+html:lang(ar) {
+    .modal--get--in-touch {
+        .modal--get--in--touch--left {
+            padding: 8rem 3rem 7rem 3rem;
+        }
+        .get--in--touch--description {
+            padding-right: 0;
+        }
+    }
+    .btn--form {
+        margin: auto;
+        .icon {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+.modal--get--in-touch--popup {
+    max-width: 100rem;
+}
+
+.modal--get--in-touch {
+    background-color: $palette-common-white;
+    border-radius: $border-radius-large;
+    display: grid;
+    overflow: hidden;
+    box-shadow: 14px 4rem 8rem rgba($shadow-color-secondary, 0.12);
+    & .modal--get--in--touch--left {
+        background-image: url('~/static/images/contact-background-image.png');
+        background-size: cover;
+        padding: 8rem 0rem 8rem 6rem;
+    }
+    & .get--in--touch--header {
+        font-size: 3.4285rem;
+        font-weight: $font-extra-bold;
+        color: $color-secondary;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    & .get--in--touch--description {
+        font-size: 1.4285rem;
+        margin-bottom: 4.714rem;
+        padding-right: 8rem;
+    }
+    & .get--in--touch--list {
+        font-size: 1.4285rem;
+        list-style: none;
+        &--item {
+            display: flex;
+            align-items: center;
+            gap: 1.2857rem;
+            &:not(:last-child) {
+                margin-bottom: 2rem;
+            }
+            & .icon {
+                width: 20px;
+                height: 16px;
+            }
+        }
+    }
+    & .modal--get--in--touch--right {
+        padding: 50px;
+        min-width: 600px;
+        & .get--in--touch--right--header {
+            font-size: 2rem;
+            font-weight: $font-extra-bold;
+            color: $color-secondary;
+            margin-bottom: 2.2857rem;
+        }
+        & .get--in--touch--form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2.2857rem;
+            & .get--in--touch--input--wrapper {
+                display: grid;
+                align-items: center;
+                column-gap: 2.2857rem;
+                & span {
+                    font-size: 1.2rem;
+                    color: $palette-common-black;
+                }
+                & input {
+                    padding: 0.8rem 1.14rem;
+                    background-color: $palette-common-grey;
+                    outline: none;
+                    border: none;
+                    border-radius: $border-radius-tiny;
+                    width: 100%;
+                    font-size: 18px;
+                    &::-webkit-input-placeholder {
+                        color: #aaaaaa;
+                        font-size: 18px;
+                        opacity: 1;
+                    }
+                }
+                &.get--in--touch--textarea--wrapper {
+                    align-items: flex-start;
+                }
+                & textarea {
+                    padding: 0.85rem 1.14rem;
+                    resize: none;
+                    background-color: $palette-common-grey;
+                    outline: none;
+                    border: none;
+                    border-radius: $border-radius-tiny;
+                    height: 9rem;
+                    width: 100%;
+                    font-size: 18px;
+                    &::-webkit-input-placeholder {
+                        color: #aaaaaa;
+                        font-size: 18px;
+                        opacity: 1;
+                    }
+                }
+            }
+            & .btn--form {
+                align-self: center;
+                margin: auto;
+            }
+        }
+    }
+}
+
+.success--wrapper {
+    padding: 1.2rem 2.4rem;
+    background-color: rgba($color-primary, 0.1);
+    border-radius: $border-radius-small;
+}
+
+.success--text {
+    color: $color-primary;
+    font-size: 1.4rem;
+}
+
+.error--message {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.6rem;
+    margin-top: 0.4rem;
+    width: fit-content;
+    color: $error-color-red;
+    background-color: rgba($error-color-red, 0.05);
+    border-radius: $border-radius-small;
+}

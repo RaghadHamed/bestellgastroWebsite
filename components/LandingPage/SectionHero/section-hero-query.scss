@@ -1,0 +1,145 @@
+@media only screen and (min-width:1650px) {
+    .image {
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: $bp-largest) {
+    .carousel-wrapper {
+        padding: 20px 200px;
+        padding-top: 0;
+    }
+    .slide-wrapper,
+    .GroBhandler .slide-wrapper,
+    .Investoren .slide-wrapper {
+        & .hero--title {
+            font-size: 4.8rem;
+        }
+    }
+}
+
+@media only screen and (max-width: $bp-large) {
+    .carousel-wrapper {
+        padding: 20px 160px;
+        padding-top: 0;
+    }
+    .slide-wrapper,
+    .GroBhandler .slide-wrapper,
+    .Investoren .slide-wrapper {
+        & .hero--title {
+            font-size: 4rem;
+            max-width: 275px;
+            margin-right: 100px;
+        }
+        .button--wrapper {
+            margin-right: 94px;
+        }
+    }
+}
+
+@media only screen and (max-width: $bp-between-large-medium) {
+    .carousel-wrapper {
+        padding: 20px 120px;
+        padding-top: 0;
+    }
+    .slide-wrapper,
+    .GroBhandler .slide-wrapper,
+    .Investoren .slide-wrapper {
+        & .hero--title {
+            font-size: 3.4rem;
+        }
+        & .hero--paragraph {
+            font-size: 1.4rem;
+        }
+    }
+}
+
+@media only screen and (max-width: $bp-medium) {
+    .carousel-wrapper {
+        padding: 20px 60px;
+        padding-top: 0;
+    }
+    .slide-wrapper,
+    .GroBhandler .slide-wrapper,
+    .Investoren .slide-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        & .hero--title {
+            font-size: 2.8rem;
+            margin-right: 0;
+            margin-top: 0;
+        }
+        & .hero--paragraph {
+            font-size: 1.2rem;
+        }
+        .button--wrapper {
+            margin-right: 0;
+        }
+    }
+    .modal--content {
+        flex-direction: column;
+        & .modal--content--wrapper {
+            & .button--wrapper {
+                justify-content: center;
+            }
+        }
+    }
+    .GroBhandler .slide-wrapper .slide-image img {
+        width: 704px;
+        margin-top: -100px;
+        margin-bottom: 64px;
+    }
+    .Investoren .slide-wrapper .slide-image img {
+        margin-bottom: 166px;
+    }
+    .image {
+        max-height: 120px;
+    }
+}
+
+@media only screen and (max-width: $bp-between-medium-small) {
+    .carousel-wrapper {
+        padding: 20px 0px;
+        padding-top: 0;
+    }
+    .slide-wrapper,
+    .GroBhandler .slide-wrapper,
+    .Investoren .slide-wrapper {
+        & .hero--title {
+            font-size: 2.8rem;
+        }
+    }
+    .button--wrapper {
+        flex-direction: column;
+    }
+    .modal--content {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        & img {
+            width: 14rem;
+        }
+        & .modal--content--wrapper {
+            & .modal--header {
+                font-size: 2rem;
+            }
+            & .button--wrapper {
+                gap: 2rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $bp-tiny) {
+    .slide-wrapper,
+    .GroBhandler .slide-wrapper,
+    .Investoren .slide-wrapper {
+        & .hero--title {
+            font-size: 2.2rem;
+        }
+    }
+}

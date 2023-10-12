@@ -1,0 +1,23 @@
+@media only screen and (max-width: $bp-between-large-medium) {
+    .images {
+        display: none;
+    }
+    .call--to--action-description {
+        width: 80%;
+    }
+    .sectionImage {
+        flex-direction: column;
+        img {
+            height: auto;
+            max-width: 80%;
+        }
+        p {
+            max-width: 80%;
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+    .section--call--to--action--wrapper2 {
+        background-size: cover;
+    }
+}

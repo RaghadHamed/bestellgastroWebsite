@@ -1,0 +1,134 @@
+.section--call--to--action {
+    padding: 0;
+    position: relative;
+    &--wrapper {
+        padding: 4.5rem 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2.28rem;
+        background-image: url(~/static/images/new/AbstractBackground021.png);
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &--wrapper2 {
+        background-image: url(~/static/images/new/AbstractBackground021.png);
+        background-position: 49.3% 0%;
+        background-size: 140%;
+        background-repeat: no-repeat;
+    }
+}
+
+.lottie--component {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+}
+
+
+/*.call--to--action--image {
+  width: 160px;
+  z-index: 3;
+}
+*/
+
+.call--to--action-title {
+    color: #111111;
+    font-size: 2.4rem;
+    font-weight: 800;
+    text-align: center;
+    z-index: 3;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.call--to--action-description {
+    width: 751px;
+    margin: 22px auto 0;
+    text-align: center;
+}
+
+.button--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.14rem;
+    z-index: 3;
+}
+
+.images {
+    width: 792px;
+    box-shadow: 2px 0 0 0 rgba(0, 0, 0, 0);
+    height: auto;
+    min-height: 327px;
+    margin: 0 auto 9px;
+}
+
+.call--to--action--image:first-child {
+    width: 374px;
+    height: 327px;
+    transition-duration: 0.5s;
+    margin: 0 auto 0 0;
+}
+
+.call--to--action--image:nth-child(2) {
+    width: 414px;
+    height: 324px;
+    margin: -324px 0 0 auto;
+}
+
+.call--to--action--image:last-child {
+    width: 369px;
+    height: 300px;
+    box-shadow: 2px 0 0 0 rgba(0, 0, 0, 0);
+    margin: -314px auto 0 197px;
+}
+
+.sectionImage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: -webkit-fit-content;
+    min-height: fit-content;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 5rem 0;
+    align-items: center;
+}
+
+.sectionImage img {
+    width: 514px;
+    height: 332px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.sectionImage p {
+    max-width: 85%;
+    margin: auto;
+    text-align: center;
+    font-size: 19px;
+    line-height: 40px;
+}
+
+p {
+    color: #111111;
+}
+
+.section2 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 60px 0 0;
+}
+
+.gradinate1 {
+    background-image: linear-gradient(transparent, #0b3947);
+    height: 150px;
+    width: 100%;
+    margin-top: -150px;
+}

@@ -1,0 +1,26 @@
+@media only screen and (max-width: $bp-between-large-medium) {
+  .careers {
+    &--description {
+      font-size: 1.5rem;
+    }
+
+    &--container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 5rem;
+      row-gap: 2.285rem;
+      align-items: center;
+      font-size: 1.428rem;
+      font-weight: $font-bold;
+      color: $color-primary;
+    }
+  }
+}
+
+@media only screen and (max-width: $bp-between-medium-small) {
+  .careers {
+    &--container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}

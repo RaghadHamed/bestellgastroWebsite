@@ -1,0 +1,14 @@
+@media only screen and (max-width: $bp-between-large-medium) {
+    .about--wrapper--item {
+        flex-direction: column;
+        &.reverse {
+            flex-direction: column;
+        }
+    }
+    .section--about .about--wrapper {
+        -webkit-clip-path: polygon(0 0, 100% 0, 95% 80%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    }
+}
+
+@media only screen and (max-width: $bp-between-medium-small) {}

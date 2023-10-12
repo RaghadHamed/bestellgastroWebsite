@@ -1,0 +1,94 @@
+@media only screen and (max-width: $bp-largest) {
+    .section--benefits {
+        & .benefits--content {
+            & .benefits--main--title {
+                font-size: 3rem;
+            }
+            & .benefits--list {
+                & .benefits--list--item {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+        & .benefits--image {
+            width: 50rem;
+        }
+    }
+}
+
+@media only screen and (max-width: $bp-large) {
+    .section--benefits {
+        padding: 0;
+        & .benefits--content {
+            & .benefits--small--title {
+                text-align: center;
+            }
+            & .benefits--main--title {
+                font-size: 3.4285rem;
+                text-align: center;
+            }
+            & .benefits--list {
+                justify-items: center;
+                column-gap: 3rem;
+                & .benefits--list--item {
+                    font-size: 1.7142rem;
+                }
+            }
+        }
+        & .benefits--image {
+            width: 54rem;
+        }
+    }
+}
+
+@media only screen and (max-width: $bp-between-large-medium) {
+    .section--benefits {
+        & .benefits--content {
+            & .benefits--list {
+                grid-template-columns: repeat(1, 1fr);
+                justify-items: start;
+                margin-left: 4rem;
+                row-gap: 3rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $bp-medium) {
+    .section--benefits .layout-wrap-1,
+    .section--benefits .layout-wrap-3,
+    .section--benefits .layout-wrap-2 {
+        flex-direction: column;
+        .layout-cell-1,
+        .layout-cell-2 {
+            width: 80%;
+        }
+    }
+    .section--benefits {
+        & .benefits--content {
+            & .benefits--main--title {
+                font-size: 3rem;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $bp-between-medium-small) {
+    .section--benefits {
+        padding: 4rem;
+        & .benefits--content {
+            & .benefits--main--title {
+                font-size: 2.8rem;
+            }
+            & .benefits--list {
+                & .benefits--list--item {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+        & .benefits--image {
+            width: 100%;
+        }
+    }
+}

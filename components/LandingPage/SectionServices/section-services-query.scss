@@ -1,0 +1,28 @@
+@media only screen and (max-width: $bp-between-large-medium) {
+    .services--tabs--content {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+}
+
+@media only screen and (max-width: $bp-large) {
+    .services--tabs--content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .section--services p {
+        width: 80%;
+        margin: auto;
+    }
+    .u-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: $bp-between-medium-small) {
+    .services--tabs--content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,35 @@
+.input--wrapper {
+  @include join-input-wrapper;
+
+  label {
+    @include join-label;
+  }
+
+  input {
+    @include join-input;
+    display: block;
+    width: 100%;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+}
+
+.error--message {
+  font-size: 1.2rem;
+  padding: 0.8rem 1.6rem;
+  margin-top: 0.4rem;
+  width: fit-content;
+  color: $error-color-red;
+  background-color: rgba($error-color-red, 0.05);
+  border-radius: $border-radius-small;
+}

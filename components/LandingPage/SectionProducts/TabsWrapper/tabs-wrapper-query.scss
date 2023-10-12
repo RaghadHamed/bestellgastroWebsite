@@ -1,0 +1,18 @@
+@media only screen and (max-width: $bp-medium) {
+  .products--tabs--header {
+    & .products--tab--main--title {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: $bp-between-medium-small) {
+  .products--tabs--header {
+    & .products--tab--main--title {
+      font-size: 1.4rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+}

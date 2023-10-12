@@ -1,0 +1,50 @@
+@mixin icon {
+  .icon {
+    width: 10px;
+    height: 16px;
+    color: $color-primary;
+    transition: all 0.2s ease;
+  }
+
+  .icon-white {
+    color: $palette-common-white;
+  }
+}
+
+@mixin join-input-wrapper {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  align-items: center;
+  column-gap: 4.1428rem;
+  margin-bottom: 2.2857rem;
+}
+
+@mixin join-label {
+  font-size: 1.2rem;
+  color: $dark-text-primary;
+}
+
+@mixin join-input {
+  padding: 0.6rem 1.14rem;
+  background-color: $palette-common-grey;
+  outline: none;
+  border: none;
+  border-radius: $border-radius-tiny;
+
+  &::-webkit-input-placeholder {
+    color: $dark-text-primary;
+    font-size: 1.142rem;
+    opacity: 0.8;
+  }
+}
+
+@mixin small-title {
+  font-size: 1rem;
+  font-weight: $font-extra-bold;
+  color: $light-text-tertiary;
+  letter-spacing: 2px;
+
+  &:lang(ar) {
+    font-size: 1.2rem;
+  }
+}

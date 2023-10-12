@@ -1,0 +1,66 @@
+@media only screen and (max-width: $bp-large) {
+  .modal--get--in-touch {
+    grid-template-columns: 1fr;
+  }
+
+  html:lang(ar) {
+    .modal--get--in-touch {
+      .modal--get--in--touch--left {
+        padding: 8rem 2rem 7rem 2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: $bp-medium) {
+  .modal--get--in-touch--popup {
+    max-width: 56rem;
+  }
+}
+
+@media only screen and (max-width: $bp-between-medium-small) {
+  .modal--get--in-touch {
+    & .modal--get--in--touch--left {
+      padding: 8rem 0rem 4rem 3rem;
+    }
+
+    & .get--in--touch--header {
+      font-size: 3.2rem;
+    }
+
+    & .get--in--touch--description {
+      font-size: 1.3rem;
+      padding-right: 4rem;
+    }
+
+    & .get--in--touch--list {
+      font-size: 1.3rem;
+      list-style: none;
+      &--item {
+        display: flex;
+        align-items: center;
+        gap: 1.2857rem;
+      }
+    }
+
+    & .modal--get--in--touch--right {
+      flex-direction: column;
+      padding: 2rem 2rem 5rem 3rem;
+
+      & .get--in--touch--form {
+        & .get--in--touch--input--wrapper {
+          grid-template-columns: 1fr;
+        }
+
+        & .btn--form {
+          align-self: center;
+        }
+      }
+    }
+  }
+
+  .modal--get--in-touch--popup {
+    display: block;
+    max-width: 40rem;
+  }
+}

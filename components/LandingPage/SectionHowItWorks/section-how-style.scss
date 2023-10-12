@@ -1,0 +1,73 @@
+.Wo--sind {
+    background-image: url(~/static/images/new/AbstractBackground021.png);
+    background-position: 50% 0%;
+    background-size: 130%;
+    padding: 5rem 9.285rem;
+    position: relative;
+    .group-elements {
+        position: relative;
+        width: 510px;
+        margin: auto;
+    }
+    h2 {
+        text-align: center;
+        color: $color-secondary;
+        font-size: 3.5rem;
+        font-weight: 300;
+    }
+    img {
+        width: 471px;
+        height: 473px;
+        margin: 70px auto;
+        object-fit: cover;
+    }
+    .icon .u-svg-link {
+        fill: #e8a523;
+        width: 100%;
+        height: 100%;
+    }
+    span {
+        will-change: transform, opacity;
+        animation-duration: 1300ms;
+        display: block;
+        position: relative;
+        width: 485px;
+        height: 503px;
+        transition-duration: 0.5s;
+        --animation-custom_in-translate_x: 0px;
+        --animation-custom_in-translate_y: 0px;
+        --animation-custom_in-opacity: 0;
+        --animation-custom_in-rotate: 0deg;
+        --animation-custom_in-scale: 1;
+        margin: -484px 6px 0 0;
+        padding: 0;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        color: #e8a523 !important;
+        animation-name: customAnimationIn;
+        animation-direction: alternate-reverse;
+        display: block;
+        line-height: 0;
+        position: absolute;
+        margin: 0 auto;
+        top: -10px;
+        left: 0;
+    }
+    .u-svg-content {
+        width: 0;
+        height: 0;
+    }
+}
+
+@keyframes customAnimationIn {
+    0% {
+        transform-origin: center center;
+        transform: translate3d(var(--animation-custom_in-translate_x), var(--animation-custom_in-translate_y), 0) scale3d(var(--animation-custom_in-scale), var(--animation-custom_in-scale), var(--animation-custom_in-scale)) rotate3d(0, 0, 1, var(--animation-custom_in-rotate));
+        opacity: var(--animation-custom_in-opacity);
+    }
+    100% {
+        transform-origin: center center;
+        transform: translate3d(-50% !important, -50% !important, 0);
+        opacity: 1;
+    }
+}

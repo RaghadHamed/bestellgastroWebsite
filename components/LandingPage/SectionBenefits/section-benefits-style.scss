@@ -1,0 +1,96 @@
+html:lang(ar) {
+    .section--benefits {
+        direction: rtl;
+        .benefits--content .benefits--small--title {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+.section--benefits {
+    background-image: url("~/static/images/new/AbstractBackground021.png");
+    background-position: 52.8% 50%;
+    padding: 0 10.714rem;
+    .sheet {
+        width: 100%;
+        padding-top: 4rem;
+    }
+    .layout-wrap-1,
+    .layout-wrap-3,
+    .layout-wrap-2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        min-height: -webkit-fit-content;
+        min-height: fit-content;
+        max-width: 100%;
+        padding: 60px 30px;
+    }
+    .layout-cell-1,
+    .layout-cell-2 {
+        width: 50%;
+    }
+    .layout-wrap-1 a,
+    .layout-wrap-3 a,
+    .layout-wrap-2 a {
+        border-bottom: 2px solid;
+        margin: 25px auto;
+        padding: 0;
+        display: table;
+        border-color: $color-primary !important;
+        color: $color-primary !important;
+        background-color: transparent !important;
+    }
+    .layout-wrap-1 img,
+    .layout-wrap-2 img,
+    .layout-wrap-3 img {
+        width: 174px;
+        height: 174px;
+        margin: 40px auto 0 auto;
+        cursor: pointer;
+        object-fit: cover;
+        display: block;
+        vertical-align: middle;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+    }
+    .layout-cell-2 h5 {
+        margin-bottom: 0;
+        margin-top: 35px;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 1.2;
+        color: #111111;
+    }
+    .layout-cell-2 p {
+        width: auto;
+        margin: 25px 0 0;
+        color: #111111;
+    }
+    [data-aos=fade-right][data-aos=fade-right].aos-animate {
+        animation: rotateImage 5s;
+    }
+    [data-aos=fade-left][data-aos=fade-left].aos-animate {
+        animation: rotateImageLeft 5s;
+    }
+}
+
+@keyframes rotateImage {
+    0% {
+        transform: translate(-100px) rotate(180deg);
+    }
+    10% {
+        transform: translate(0px) rotate(0deg);
+    }
+}
+
+@keyframes rotateImageLeft {
+    0% {
+        transform: translate(+100px) rotate(180deg);
+    }
+    10% {
+        transform: translate(0px) rotate(0deg);
+    }
+}
